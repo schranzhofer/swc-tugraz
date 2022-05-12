@@ -4,9 +4,10 @@
 
 
 for filename in "$@"
-echo $filename
 do
+echo $filename
 head -n 15 $filename | tail -n 5
+something stupid
 echo
 done
 
